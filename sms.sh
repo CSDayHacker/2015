@@ -17,6 +17,6 @@ expect {
 	send "telnet 158.124.254.123 4444\n"
 	send "PAGE $phonenumber\r"
 	send "DATA\r"
-	send "$formattedtexttosend,Second_flag:XJrr8kWwLXNQ8MFZ\r.\r"
+	send "$formattedtexttosend,Harder_flag:XJrr8kWwLXNQ8MFZ\r.\r"
 	send "SEND\r"
 	send "QUIT\r"
